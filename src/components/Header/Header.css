@@ -1,0 +1,73 @@
+.header-logo{
+    color: #887859;
+    width: 250px;
+    position: absolute;
+}
+.header{
+    display: flex;
+    /* height: 150px; */
+    z-index: 10000;
+    position: fixed;
+    margin-left: 200px;
+}
+.header-logo-bgc{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.header-card{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 400px;
+}
+.header-card p{
+    color: #fff;
+}
+.header-card-img{
+    width: 21px;
+    height: 21px;
+    margin-top: 10px;
+}
+.header-input{
+    width: 377px;
+    height: 35px;
+    background: none;
+    border-radius: 20px;
+}
+
+.header-input{
+    color: white;
+    text-align: center;
+    margin-left: 113px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header-register{
+    display: flex;
+    font-size: 22px;
+    color: #AAAAAA;
+    margin-left: 139px;
+}
+.header-register p{
+    color: #AAAAAA;
+}
+.sign-up{
+    list-style: none;
+}
+.sign-up a{
+    color: #887859;
+    text-decoration: none;
+}
+
+.sign-in{
+    list-style: none;
+}
+.sign-in a{
+    color: #887859;
+}
+
+

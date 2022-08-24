@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.hero {
+  background: url(./images/480x600_1_7120bb2850d27b450a7b013d3b39d8d5@1080x1350_0xac120003_9846294861608606920\ 1.png);
+  width: 100%;
+  height: 100vh;
+}
+
+
