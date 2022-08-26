@@ -1,0 +1,326 @@
+.Cards_sec{
+    height: 140vh;
+  
+}
+.cards-sec-title{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-sec-title li{
+    list-style: none;
+    margin-left: 77px;
+}
+
+.cards{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cards-2{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-image: url(../../images/pwa_vertical_1024_b065204081ddd279b7c1470fa6a17be3.jpg);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-1-price{
+    display: flex;
+}
+.card-1-price p{
+    margin-top: -20px;
+}
+.card-1-price h5{
+    margin-top: -0px;
+}
+.card-1-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-1-title {
+    font-size: 19px;
+}
+
+.card-1-tit{
+    font-size: 38px;
+}
+.card-1-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-2{
+    background-image: url(../../images/2243327869_w640_h640_kupalnik-mini-bikini-na.webp);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.card-2-price{
+    display: flex;
+}
+.card-2-price p{
+    margin-top: -20px;
+}
+.card-2-price h5{
+    margin-top: -0px;
+}
+.card-2-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-2-title {
+    font-size: 19px;
+}
+
+.card-2-tit{
+    font-size: 38px;
+}
+.card-2-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+
+
+.card-3{
+    background-image: url(../../images/1551256465-2363.jpg);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.card-3-price{
+    display: flex;
+}
+.card-3-price p{
+    margin-top: -20px;
+}
+.card-3-price h5{
+    margin-top: -0px;
+}
+.card-3-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-3-title {
+    font-size: 19px;
+}
+
+.card-3-tit{
+    font-size: 38px;
+}
+.card-3-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+
+
+.card-4{
+    background-image: url(../../images/2372320.jpg);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-4-price{
+    display: flex;
+}
+.card-4-price p{
+    margin-top: -20px;
+}
+.card-4-price h5{
+    margin-top: -0px;
+}
+.card-4-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-4-title {
+    font-size: 19px;
+}
+
+.card-4-tit{
+    font-size: 38px;
+}
+.card-4-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+
+
+
+.card-5{
+    background-image: url(../../images/c73d6f94447eb05898e9f71d1ef549a121b31c72.jpg);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-5-price{
+    display: flex;
+}
+.card-5-price p{
+    margin-top: -20px;
+}
+.card-5-price h5{
+    margin-top: -0px;
+}
+.card-5-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-5-title {
+    font-size: 19px;
+}
+
+.card-5-tit{
+    font-size: 38px;
+}
+.card-5-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+
+
+.card-6{
+    background-image: url(../../images/D091D180D0B8D182D0B0D0BDD181D0BAD0B0D18F20D0BCD0BED0B4D0B5D0BBD18C20D094D0B5D0BCD0B820D0A0D0BED183D0B720D181D0BDD18FD0BBD0B0D181D18C20D0B220D0BED0B1D180D0B0D0B7D0B520D090D0BCD0B0D0B7D0BED0BDD0BAD0B8.docx1_.jpg);
+    width: 440px;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-6-price{
+    display: flex;
+}
+.card-6-price p{
+    margin-top: -20px;
+}
+.card-6-price h5{
+    margin-top: -0px;
+}
+.card-6-price li{
+    list-style: none;
+    width: 145px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.card-6-title {
+    font-size: 19px;
+}
+
+.card-6-tit{
+    font-size: 38px;
+}
+.card-6-title{
+    margin-top: 320px;
+    height: 180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+.card-1:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+.card-2:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+.card-3:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+.card-4:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+.card-5:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}
+.card-6:hover{
+    opacity: 0.5;
+    background-color: black;
+    transition: all 1.5s ease;
+}

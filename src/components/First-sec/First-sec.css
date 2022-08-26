@@ -1,7 +1,33 @@
 .first-sec{
-    z-index: 99999;
     margin-top: -900px;
     text-align: center;
+    position: relative;
+    height: 50vh;
+}
+
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+.filter-button1:hover {
+	animation: bounce 1s;
+}
+.filter-button2:hover {
+	animation: bounce 1s;
 }
 .dropbtn {
     background-color: rgba(28,28,28,0);
@@ -9,7 +35,8 @@
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     padding: 16px;
-    font-size: 18px;
+    font-size: 28px;
+    width: 150px;
     border: none;
     margin-top: -100px;
     cursor: pointer;
@@ -92,8 +119,11 @@
     display: none;
     position: absolute;
     margin-left: 50px;
-    background-color: transparent;
+    background-color: grey;
     min-width: 160px;
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -106,19 +136,19 @@
   }
 
   .dropdown2:hover .dropbtn2 {
-    background-color: #ba4c07;
+    background-color: grey;
   }
   .dropdown3:hover .dropbtn3 {
-    background-color: #ba4c07;
+    background-color: grey;
   }
   .dropdown4:hover .dropbtn4 {
-    background-color: #ba4c07;
+    background-color: grey;
   }
   .dropdown:hover .dropbtn {
     background-color: black;
   }
   .dropdown5:hover .dropbtn5 {
-    background-color: #ba4c07;
+    background-color: grey;
   }
   .dropbtn2{
     width: 170px;
@@ -148,8 +178,11 @@
     display: none;
     position: absolute;
     margin-left: 50px;
-    background-color: transparent;
+    background-color: grey;
     min-width: 160px;
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -200,7 +233,10 @@
     display: none;
     position: absolute;
     margin-left: 50px;
-    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 12px;
+    opacity: 0.9;
+    background-color: grey;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -241,8 +277,11 @@
     display: none;
     position: absolute;
     margin-left: 50px;
-    background-color: transparent;
+    background-color: grey;
     min-width: 160px;
+    border: 2px solid black;
+    opacity: 0.8;
+    border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -263,4 +302,131 @@
   }
   .dropdown5:hover .dropdown-content5 {
     display: block;
+  }
+
+  .price-of-hour{
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+    text-align: left;
+  }
+  .price-of-hour input{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 12px;
+  }
+  .price-of-hour li input{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background: none;
+  }
+
+  .price-of-hour li{
+    display: flex;
+    list-style: none;
+  }
+
+  .price-of-hour-tit{
+    font-size: 20px;
+  }
+
+
+
+
+
+  .price-of-hour2{
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+    text-align: left;
+    margin-left: -200px;
+  }
+  .price-of-hour2 input{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 12px;
+  }
+  .price-of-hour2 li input{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background: none;
+  }
+
+  .price-of-hour2 li{
+    display: flex;
+    list-style: none;
+  }
+
+  .price-of-hour-tit2{
+    font-size: 20px;
+  }
+
+
+
+  .price-of-hour3{
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+    text-align: left;
+    margin-left: -200px;
+  }
+  .price-of-hour3 input{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 12px;
+  }
+  .price-of-hour3 li input{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background: none;
+  }
+
+  .price-of-hour3 li{
+    display: flex;
+    list-style: none;
+  }
+
+  .price-of-hour-tit3{
+    font-size: 20px;
+  }
+
+
+  .filter-buttons{
+    margin-left: 900px;
+    display: flex;
+  }
+
+  .filter-button1{
+    width: 117px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid white;
+  }
+
+  .filter-button2{
+    width: 117px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    opacity: 0.5;
+    color: #fff;
+    margin-left: 30px;
+    background-color: #000;
+    border: 1px solid white;
   }

@@ -9,6 +9,8 @@
     z-index: 10000;
     position: fixed;
     margin-left: 200px;
+    background-color: #000;
+    opacity: 0.7;
 }
 .header-logo-bgc{
     width: 120px;
